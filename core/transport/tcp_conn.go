@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/framing"
-	"github.com/rsocket/rsocket-go/internal/u24"
-	"github.com/rsocket/rsocket-go/logger"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/framing"
+	"github.com/bsElyes/rsocket-go/internal/u24"
+	"github.com/bsElyes/rsocket-go/logger"
 )
 
 // TCPConn is RSocket connection for TCP transport.

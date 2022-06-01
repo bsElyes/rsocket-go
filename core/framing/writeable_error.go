@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 )
 
 // WriteableErrorFrame is writeable error frame.

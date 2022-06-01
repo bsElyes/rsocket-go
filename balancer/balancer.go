@@ -5,7 +5,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/rsocket/rsocket-go"
+	"github.com/bsElyes/rsocket-go"
 )
 
 // Balancer manage input RSocket clients.

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bsElyes/rsocket-go"
 	"github.com/google/uuid"
-	"github.com/rsocket/rsocket-go"
 	"github.com/stretchr/testify/assert"
 )
 

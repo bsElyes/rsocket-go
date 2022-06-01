@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/framing"
+	"github.com/bsElyes/rsocket-go/core/transport"
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/framing"
-	"github.com/rsocket/rsocket-go/core/transport"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/atomic"
 )

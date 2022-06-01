@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 )
 
 var _writeableRequestResponseFramePool = sync.Pool{

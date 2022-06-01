@@ -3,11 +3,11 @@ package flux
 import (
 	"context"
 
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/jjeffcaii/reactor-go"
 	"github.com/jjeffcaii/reactor-go/flux"
 	"github.com/jjeffcaii/reactor-go/scheduler"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
 )
 
 type proxy struct {

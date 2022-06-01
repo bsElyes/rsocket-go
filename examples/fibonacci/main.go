@@ -7,11 +7,11 @@ import (
 	"math"
 	"sync"
 
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/extension"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
-	"github.com/rsocket/rsocket-go/rx/flux"
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/extension"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
+	"github.com/bsElyes/rsocket-go/rx/flux"
 )
 
 const number = 13

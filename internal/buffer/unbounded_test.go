@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/rsocket/rsocket-go/internal/buffer"
+	"github.com/bsElyes/rsocket-go/internal/buffer"
 	"github.com/stretchr/testify/assert"
 )
 

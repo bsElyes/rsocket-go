@@ -1,8 +1,8 @@
 package framing
 
 import (
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
-	"github.com/rsocket/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/common"
 )
 
 // MetadataPushFrame is MetadataPush frame.

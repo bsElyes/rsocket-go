@@ -3,7 +3,7 @@ package framing
 import (
 	"io"
 
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 )
 
 var _metadataPushHeader = core.NewFrameHeader(0, core.FrameTypeMetadataPush, core.FlagMetadata)

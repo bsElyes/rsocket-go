@@ -8,12 +8,12 @@ import (
 	_ "net/http/pprof"
 	"strconv"
 
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/core/transport"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/flux"
-	"github.com/rsocket/rsocket-go/rx/mono"
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/core/transport"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/flux"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 )
 
 var tp transport.ServerTransporter

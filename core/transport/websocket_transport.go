@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bsElyes/rsocket-go/logger"
 	"github.com/gorilla/websocket"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/logger"
 )
 
 const defaultWebsocketPath = "/"

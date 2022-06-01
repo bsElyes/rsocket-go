@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/rsocket/rsocket-go/logger"
-	"github.com/rsocket/rsocket-go/rx"
+	"github.com/bsElyes/rsocket-go/logger"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/urfave/cli/v2"
 )
 

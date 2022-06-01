@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/rsocket/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/payload"
 	"github.com/stretchr/testify/assert"
 )
 

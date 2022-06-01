@@ -3,9 +3,9 @@ package mono
 import (
 	"time"
 
+	"github.com/bsElyes/rsocket-go/payload"
 	"github.com/jjeffcaii/reactor-go"
 	"github.com/jjeffcaii/reactor-go/mono"
-	"github.com/rsocket/rsocket-go/payload"
 )
 
 type DelayBuilder time.Duration

@@ -3,12 +3,12 @@ package mono
 import (
 	"context"
 
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/jjeffcaii/reactor-go"
 	"github.com/jjeffcaii/reactor-go/mono"
 	"github.com/jjeffcaii/reactor-go/scheduler"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
 )
 
 var empty = newProxy(mono.Empty())

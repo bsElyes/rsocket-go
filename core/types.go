@@ -4,7 +4,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/rsocket/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/common"
 )
 
 // FrameType is type of frame.

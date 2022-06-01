@@ -3,7 +3,7 @@ package fragmentation
 import (
 	"testing"
 
-	"github.com/rsocket/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/common"
 )
 
 func BenchmarkToFragments(b *testing.B) {

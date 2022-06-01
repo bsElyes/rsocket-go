@@ -3,11 +3,11 @@ package socket
 import (
 	"io"
 
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/rx"
+	"github.com/bsElyes/rsocket-go/rx/flux"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 	"github.com/jjeffcaii/reactor-go"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/rx"
-	"github.com/rsocket/rsocket-go/rx/flux"
-	"github.com/rsocket/rsocket-go/rx/mono"
 )
 
 type callback interface {

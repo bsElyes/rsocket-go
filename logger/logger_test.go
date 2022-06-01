@@ -3,8 +3,8 @@ package logger_test
 import (
 	"testing"
 
+	"github.com/bsElyes/rsocket-go/logger"
 	"github.com/golang/mock/gomock"
-	"github.com/rsocket/rsocket-go/logger"
 	"github.com/stretchr/testify/assert"
 )
 

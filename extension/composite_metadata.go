@@ -3,10 +3,10 @@ package extension
 import (
 	"bytes"
 	"fmt"
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
 	"math"
 
-	"github.com/rsocket/rsocket-go/internal/u24"
+	"github.com/bsElyes/rsocket-go/internal/u24"
 )
 
 // CompositeMetadata provides multi Metadata payloads with different MIME types.

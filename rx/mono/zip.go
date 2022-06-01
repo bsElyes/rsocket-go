@@ -1,11 +1,11 @@
 package mono
 
 import (
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/jjeffcaii/reactor-go"
 	"github.com/jjeffcaii/reactor-go/mono"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
 )
 
 // Zip merges given Monos into a new Mono that will be fulfilled when all of the given Monos have produced an item, aggregating their values into a Tuple.

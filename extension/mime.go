@@ -6,7 +6,7 @@ var (
 )
 
 // MIME is MIME types in number.
-// Please see: https://github.com/rsocket/rsocket/blob/master/Extensions/WellKnownMimeTypes.md
+// Please see: https://github.com/bsElyes/rsocket/blob/master/Extensions/WellKnownMimeTypes.md
 type MIME int8
 
 // All MIMEs

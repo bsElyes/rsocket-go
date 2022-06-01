@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/internal/u24"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/u24"
 )
 
 const (

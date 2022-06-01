@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/rsocket/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/common"
 )
 
 func TestNewCond(t *testing.T) {

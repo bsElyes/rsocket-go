@@ -2,17 +2,17 @@ package rsocket
 
 import (
 	"context"
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
 	"time"
 
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/transport"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/fragmentation"
+	"github.com/bsElyes/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/payload"
 	"github.com/google/uuid"
 	"github.com/jjeffcaii/reactor-go/scheduler"
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/transport"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/internal/fragmentation"
-	"github.com/rsocket/rsocket-go/internal/socket"
-	"github.com/rsocket/rsocket-go/payload"
 )
 
 var (

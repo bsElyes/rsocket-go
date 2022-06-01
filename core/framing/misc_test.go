@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 	"github.com/stretchr/testify/assert"
 )
 

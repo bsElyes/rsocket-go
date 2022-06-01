@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
+	"github.com/bsElyes/rsocket-go/rx/flux"
 	"github.com/jjeffcaii/reactor-go"
 	reactorFlux "github.com/jjeffcaii/reactor-go/flux"
 	"github.com/jjeffcaii/reactor-go/scheduler"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
-	"github.com/rsocket/rsocket-go/rx/flux"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/atomic"
 )

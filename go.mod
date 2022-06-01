@@ -1,4 +1,4 @@
-module github.com/rsocket/rsocket-go
+module github.com/bsElyes/rsocket-go
 
 go 1.15
 

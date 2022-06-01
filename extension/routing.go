@@ -34,7 +34,7 @@ func EncodeRouting(tag string, otherTags ...string) (raw []byte, err error) {
 }
 
 // ParseRoutingTags parse routing tags in metadata.
-// See: https://github.com/rsocket/rsocket/blob/master/Extensions/Routing.md
+// See: https://github.com/bsElyes/rsocket/blob/master/Extensions/Routing.md
 func ParseRoutingTags(bs []byte) (tags []string, err error) {
 	totals := len(bs)
 	cursor := 0

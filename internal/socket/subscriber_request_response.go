@@ -5,12 +5,12 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/fragmentation"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/jjeffcaii/reactor-go"
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/internal/fragmentation"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
 )
 
 var globalRequestResponseSubscriberPool requestResponseSubscriberPool

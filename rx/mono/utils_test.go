@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 	rsMono "github.com/jjeffcaii/reactor-go/mono"
 	"github.com/jjeffcaii/reactor-go/scheduler"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/mono"
 	"github.com/stretchr/testify/assert"
 )
 

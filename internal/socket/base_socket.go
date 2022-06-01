@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/rsocket/rsocket-go/logger"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/flux"
-	"github.com/rsocket/rsocket-go/rx/mono"
+	"github.com/bsElyes/rsocket-go/logger"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/flux"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 )
 
 // BaseSocket is basic socket.

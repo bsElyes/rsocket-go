@@ -6,11 +6,11 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/logger"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/logger"
 )
 
 var errConflictSocket = errors.New("socket exists already")

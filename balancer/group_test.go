@@ -3,7 +3,7 @@ package balancer_test
 import (
 	"testing"
 
-	"github.com/rsocket/rsocket-go/balancer"
+	"github.com/bsElyes/rsocket-go/balancer"
 	"github.com/stretchr/testify/assert"
 )
 

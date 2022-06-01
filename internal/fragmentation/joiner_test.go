@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/framing"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/framing"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,16 +1,16 @@
 //go:build gofuzz
 // +build gofuzz
 
-//go:generate GO111MODULE=off go-fuzz-build github.com/rsocket/rsocket-go/
+//go:generate GO111MODULE=off go-fuzz-build github.com/bsElyes/rsocket-go/
 package rsocket
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/framing"
-	"github.com/rsocket/rsocket-go/core/transport"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/framing"
+	"github.com/bsElyes/rsocket-go/core/transport"
 )
 
 func Fuzz(data []byte) int {

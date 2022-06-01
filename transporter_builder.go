@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"os"
 
+	"github.com/bsElyes/rsocket-go/core/transport"
 	"github.com/gorilla/websocket"
-	"github.com/rsocket/rsocket-go/core/transport"
 )
 
 const (

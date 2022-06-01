@@ -6,16 +6,16 @@ import (
 
 	"github.com/jjeffcaii/reactor-go/scheduler"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/core/framing"
-	"github.com/rsocket/rsocket-go/core/transport"
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
-	"github.com/rsocket/rsocket-go/internal/common"
-	"github.com/rsocket/rsocket-go/internal/fragmentation"
-	"github.com/rsocket/rsocket-go/internal/session"
-	"github.com/rsocket/rsocket-go/internal/socket"
-	"github.com/rsocket/rsocket-go/lease"
-	"github.com/rsocket/rsocket-go/logger"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core/framing"
+	"github.com/bsElyes/rsocket-go/core/transport"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/internal/fragmentation"
+	"github.com/bsElyes/rsocket-go/internal/session"
+	"github.com/bsElyes/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/lease"
+	"github.com/bsElyes/rsocket-go/logger"
 )
 
 const (

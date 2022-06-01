@@ -35,7 +35,7 @@ func (w wellKnownAuthenticationType) String() string {
 
 // Authentication is a necessary component to any real world application.
 // This extension specification provides a standardized mechanism for including both the type of credentials and the credentials in metadata payloads.
-// https://github.com/rsocket/rsocket/blob/master/Extensions/Security/WellKnownAuthTypes.md
+// https://github.com/bsElyes/rsocket/blob/master/Extensions/Security/WellKnownAuthTypes.md
 type Authentication struct {
 	typ     string
 	payload []byte

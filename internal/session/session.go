@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rsocket/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/internal/socket"
 )
 
 // Session represents a lifecycle of a RSocket server socket.

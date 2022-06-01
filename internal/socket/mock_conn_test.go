@@ -9,7 +9,7 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	core "github.com/rsocket/rsocket-go/core"
+	core "github.com/bsElyes/rsocket-go/core"
 )
 
 // MockConn is a mock of Conn interface

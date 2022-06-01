@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/internal/common"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/internal/common"
 )
 
 var errResumeTokenTooLarge = errors.New("max length of resume token is 65535")

@@ -1,6 +1,6 @@
 package framing
 
-import "github.com/rsocket/rsocket-go/core"
+import "github.com/bsElyes/rsocket-go/core"
 
 type writeableFrame struct {
 	header      core.FrameHeader

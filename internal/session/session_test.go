@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rsocket/rsocket-go/internal/session"
-	"github.com/rsocket/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/internal/session"
+	"github.com/bsElyes/rsocket-go/internal/socket"
 	"github.com/stretchr/testify/assert"
 )
 

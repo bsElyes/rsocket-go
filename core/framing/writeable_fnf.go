@@ -3,7 +3,7 @@ package framing
 import (
 	"io"
 
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 )
 
 // WriteableFireAndForgetFrame is writeable FireAndForget frame.

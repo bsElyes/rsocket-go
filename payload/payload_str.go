@@ -1,7 +1,7 @@
 package payload
 
 import (
-	"github.com/rsocket/rsocket-go/internal/bytesconv"
+	"github.com/bsElyes/rsocket-go/internal/bytesconv"
 )
 
 type strPayload struct {

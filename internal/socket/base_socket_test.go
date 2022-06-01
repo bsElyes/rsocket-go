@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bsElyes/rsocket-go/internal/fragmentation"
+	"github.com/bsElyes/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/rx/flux"
 	"github.com/golang/mock/gomock"
-	"github.com/rsocket/rsocket-go/internal/fragmentation"
-	"github.com/rsocket/rsocket-go/internal/socket"
-	"github.com/rsocket/rsocket-go/rx/flux"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/atomic"
 )

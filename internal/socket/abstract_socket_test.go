@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rsocket/rsocket-go/internal/socket"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/flux"
-	"github.com/rsocket/rsocket-go/rx/mono"
+	"github.com/bsElyes/rsocket-go/internal/socket"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/flux"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/atomic"
 )

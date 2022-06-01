@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/mono"
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 )
 
 func ExampleNewGroup() {

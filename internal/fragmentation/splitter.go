@@ -1,7 +1,7 @@
 package fragmentation
 
 import (
-	"github.com/rsocket/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/core"
 )
 
 // HandleSplitResult is callback for fragmentation result.

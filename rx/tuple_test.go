@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/jjeffcaii/reactor-go"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx"
 	"github.com/stretchr/testify/assert"
 )
 

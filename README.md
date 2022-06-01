@@ -1,12 +1,12 @@
 # rsocket-go
 ![logo](./logo.jpg)
 
-![GitHub Workflow Status](https://github.com/rsocket/rsocket-go/workflows/Go/badge.svg)
+![GitHub Workflow Status](https://github.com/bsElyes/rsocket-go/workflows/Go/badge.svg)
 [![codecov](https://codecov.io/gh/rsocket/rsocket-go/branch/master/graph/badge.svg)](https://codecov.io/gh/rsocket/rsocket-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rsocket/rsocket-go)](https://goreportcard.com/report/github.com/rsocket/rsocket-go)
-[![GoDoc](https://godoc.org/github.com/rsocket/rsocket-go?status.svg)](https://godoc.org/github.com/rsocket/rsocket-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bsElyes/rsocket-go)](https://goreportcard.com/report/github.com/bsElyes/rsocket-go)
+[![GoDoc](https://godoc.org/github.com/bsElyes/rsocket-go?status.svg)](https://godoc.org/github.com/bsElyes/rsocket-go)
 ![License](https://img.shields.io/github/license/rsocket/rsocket-go.svg)
-[![GitHub Release](https://img.shields.io/github/release-pre/rsocket/rsocket-go.svg)](https://github.com/rsocket/rsocket-go/releases)
+[![GitHub Release](https://img.shields.io/github/release-pre/rsocket/rsocket-go.svg)](https://github.com/bsElyes/rsocket-go/releases)
 
 > rsocket-go is an implementation of the [RSocket](http://rsocket.io/) protocol in Go.
 
@@ -14,8 +14,8 @@
  - Design For Golang.
  - Thin [reactive-streams](http://www.reactive-streams.org/) implementation.
  - Simulate Java SDK API.
- - Fast CLI (Compatible with [https://github.com/rsocket/rsocket-cli](https://github.com/rsocket/rsocket-cli/)).
-   - Installation: `go get github.com/rsocket/rsocket-go/cmd/rsocket-cli`
+ - Fast CLI (Compatible with [https://github.com/bsElyes/rsocket-cli](https://github.com/bsElyes/rsocket-cli/)).
+   - Installation: `go get github.com/bsElyes/rsocket-go/cmd/rsocket-cli`
    - Example: `rsocket-cli --request -i hello_world --setup setup_me tcp://127.0.0.1:7878`
 
 ## Install
@@ -23,7 +23,7 @@
 > Minimal go version is ***1.11***.
 
 ```shell
-$ go get -u github.com/rsocket/rsocket-go
+$ go get -u github.com/bsElyes/rsocket-go
 ```
 
 ## Quick Start
@@ -37,9 +37,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/payload"
-	"github.com/rsocket/rsocket-go/rx/mono"
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go/rx/mono"
 )
 
 func main() {
@@ -68,8 +68,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/rsocket/rsocket-go"
-	"github.com/rsocket/rsocket-go/payload"
+	"github.com/bsElyes/rsocket-go"
+	"github.com/bsElyes/rsocket-go/payload"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package socket
 import (
 	"time"
 
-	"github.com/rsocket/rsocket-go/lease"
+	"github.com/bsElyes/rsocket-go/lease"
 	"go.uber.org/atomic"
 )
 

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/rsocket/rsocket-go/core"
-	"github.com/rsocket/rsocket-go/internal/u24"
+	"github.com/bsElyes/rsocket-go/core"
+	"github.com/bsElyes/rsocket-go/internal/u24"
 )
 
 const (

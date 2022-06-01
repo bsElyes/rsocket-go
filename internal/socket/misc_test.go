@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
+	"github.com/bsElyes/rsocket-go/rx"
 	"github.com/pkg/errors"
-	"github.com/rsocket/rsocket-go/rx"
 	"github.com/stretchr/testify/assert"
 )
 
